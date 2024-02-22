@@ -26,7 +26,7 @@ def Home():
                                           'Físico, Tapa blanda', 
                                           'Digital'], 
                                 'Inicio': ["S/ 60.00", "S/ 40.00", 
-                                           "S/ 20.00"]}))
+                                           "S/ 20.00"]}, index_col=None))
     image = Image.open("DALL·E 2022-12-26 21.10.51 - Humberto Maturana head for 3D printing.png")
     st.image(image, caption='Personaje ilustrado por IA para impresión 3D')
     
