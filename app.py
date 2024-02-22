@@ -46,10 +46,11 @@ def page2():
                         'Horas': ["2 asíncronas", "2 sincrónicas", 
                                    "2 sincrónicas"]}))
     with total4:
-        st.info('Inversión')
-        st.write('''Envía tu recibo de pago a inefable12@gmail.com.''')
+        st.info('Medios de Pago')
+        st.write('''Puedes yapear al número 957787559 o depositar a:''')
         st.write('''Cuenta Simple Soles en Interbank es: 0463101896728.''') 
         st.write('''Cuenta Interbancaria (CCI) en Interbank es: 00304601310189672804.''')
+        st.write('''Envía el recibo de pago a inefable12@gmail.com''')
         st.write (pd.DataFrame({'Modalidad': ['General',
                                           'Estudiantes', 
                                           'Corporativo (grupos de 4)'], 
