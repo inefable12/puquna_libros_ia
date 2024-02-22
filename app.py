@@ -13,7 +13,7 @@ st.sidebar.image("stabledifussion777.png",
 ##############Pagina 1##############
 
 def Inicio():
-    st.markdown("# El principito")
+    st.markdown("# El_principito")
     st.sidebar.markdown("# El principito")
     image = Image.open("elprincipito.jpeg")
     st.image(image, caption='El principito')
@@ -70,7 +70,7 @@ st.link_button("Facebook", "https://www.facebook.com/tallerespuquna")
 
 st.link_button("Github", "https://github.com/inefable12")
 
-image = Image.open("verano2023a.jpeg")
+image = Image.open("verano2023a.png")
 st.image(image, caption='puquna')
 
 
