@@ -82,7 +82,7 @@ def page3():
   Somos especialistas en inteligencia artificial, ciencia de datos, música algorítmica y arte disruptivo, simulaciones moleculares, 
   prototipado con impresión 3D, corte laser, y mucho más.''')
 
-st.write('''Puquna STEAM - 2024''')
+  st.write('''Puquna STEAM - 2024''')
 
 
 ##
