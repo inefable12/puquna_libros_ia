@@ -33,13 +33,13 @@ def Home():
     
 ##############Pagina 2##############
 def page2():
-    st.markdown("# Aprende a crear libros ilustrados por ia desde cero")
+    st.markdown("# Tus propios libros ilustrados por ia")
     st.sidebar.markdown("# Mis creaciones")
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Mis ilustraciones')
-        st.write('''Aprende a crear libros ilustrados por ia desde cero''')
+        st.write('''Aprende desde cero con plantillas de códigas listas para desplegar toda tu creatividad''')
         st.write (pd.DataFrame({'Temas': ['Python y redes neuronales artificiales',
                                   'Procesamiento de Lenguaje Natural', 
                                   'Llama 2 y ChatGPT'], 
