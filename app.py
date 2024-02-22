@@ -47,9 +47,9 @@ def page2():
                                    "2 sincrónicas"]}))
     with total4:
         st.info('Inversión')
-        st.write(''' Envía tu recibo de pago a inefable12@gmail.com.
-        Cuenta Simple Soles en Interbank es: 0463101896728. 
-        Cuenta Interbancaria (CCI) en Interbank es: 00304601310189672804''')
+        st.write('''Envía tu recibo de pago a inefable12@gmail.com.''')
+        st.write('''Cuenta Simple Soles en Interbank es: 0463101896728.''') 
+        st.write('''Cuenta Interbancaria (CCI) en Interbank es: 00304601310189672804.''')
         st.write (pd.DataFrame({'Modalidad': ['General',
                                           'Estudiantes', 
                                           'Corporativo (grupos de 4)'], 
