@@ -18,9 +18,8 @@ def Home():
     total1, total2 = st.columns(2, gap='large')
     with total1:
         st.info('El principito ilustrado por ia')
-        st.write('''Capacítate en skills que potencian tu CV.
-        Implementa herramientas computacionales, simulaciones, 
-        inteligencia artificial, prototipado con impresión 3D, y mucho más.''')
+        st.write('''Te imaginas al principito en nuevos escenarios, ¡por ejemplo en Machupichu! qué nuevas historias puede despertar nuestro imaginario a través de la generación de imágenes usando inteligencia artificial.''')
+        st.write('''Con nuestros libros ilustrados juega a crear nuevas historias y ''')
     with total2:
         st.info('En stock')
         st.write (pd.DataFrame({'Tipo': ['Físico, Tapa dura',
@@ -59,10 +58,10 @@ def page2():
                                 'Inversión': ["S/ 200", "S/ 150", 
                                            "S/ 160"]}))
     image = Image.open("alberteinstein.jpeg")
-    st.image(image, caption='¿Recuerdas cuando Albert Einstein visitó Machupichu? Despierta historias alucinantes :smile:')
+    st.image(image, caption='¿Recuerdas cuando Albert Einstein visitó Machupichu? Despierta historias alucinantes a través de la generación de imágenes con IA.')
   
     image = Image.open("logPann_red.png")
-    st.image(image, caption='Redes Neuronales Artificiales')
+    st.image(image, caption='Descubre cómo las redes neuronales artificiales están revolucionando diversas áreas del conocimiento')
 
 
 ##
@@ -77,6 +76,10 @@ def page3():
   
   image = Image.open("verano2023a.png")
   st.image(image, caption='Puquna: Talleres STEAM')
+
+  st.write('''Capacítate en skills que potencian tu CV.
+        Implementa herramientas computacionales, simulaciones, 
+        inteligencia artificial, prototipado con impresión 3D, corte laser, y mucho más.''')
 
 
 ##
