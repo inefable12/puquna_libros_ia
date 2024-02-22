@@ -14,7 +14,7 @@ def Home():
     #st.markdown("<h1 style='text-align: center; color: red;'>Juega a crear nuevas historias</h1>", unsafe_allow_html=True)
     st.sidebar.markdown("# El principito en Machupichu")
     image = Image.open("elprincipito.jpeg")
-    st.image(image, caption='El principito')
+    st.image(image, caption='El principito en Machupichu')
 
     total1, total2 = st.columns(2, gap='large')
     with total1:
