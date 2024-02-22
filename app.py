@@ -10,7 +10,7 @@ st.sidebar.image("stabledifussion777.png",
 
 ##############Pagina 1##############
 def Home():
-    st.markdown("# Juega a crear nuevas historias") #st.write('''Con nuestros libros ilustrados juega a crear nuevas historias ''')
+    st.markdown("# Juega a crear nuevas historias")
     st.sidebar.markdown("# Elprincipito")
     image = Image.open("elprincipito.jpeg")
     st.image(image, caption='El principito')
@@ -43,9 +43,10 @@ def page2():
         listos para que puedas desplegar toda tu creatividad.''')
         st.write (pd.DataFrame({'Temas': ['Python y redes neuronales artificiales',
                                   'Procesamiento de Lenguaje Natural', 
-                                  'Llama 2 y ChatGPT'], 
-                        'Horas': ["2 asíncronas", "2 sincrónicas", 
-                                   "2 sincrónicas"]}))
+                                  'Llama 2 y ChatGPT','IA generadora de imágenes'], 
+                        'Horas': ["2", "2", 
+                                   "2", "2"]}))
+        st.write('No requieres instalar en tu computadora los programas empleados y el uso de estos son gratuitos de forma permanente.')
     with total4:
         st.info('Medios de Pago')
         st.write('''Puedes yapear al número 957787559 o depositar a:''')
