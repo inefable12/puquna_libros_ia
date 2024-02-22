@@ -6,7 +6,7 @@ from PIL import Image
 
 ##############
 st.sidebar.image("stabledifussion777.png",
-                 caption="Ilustra tus libros con IA")
+                 caption="Portada creada con IA")
 
 ##############Pagina 1##############
 def Home():
@@ -28,7 +28,7 @@ def Home():
                                 'Inicio': ["S/ 60.00", "S/ 40.00", 
                                            "S/ 20.00"]}))
     image = Image.open("DALL·E 2022-12-26 21.10.51 - Humberto Maturana head for 3D printing.png")
-    st.image(image, caption='Ilustración de personajes literarios')
+    st.image(image, caption='Personaje ilustrado por IA para impresión 3D')
     
 ##############Pagina 2##############
 def page2():
