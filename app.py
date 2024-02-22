@@ -13,8 +13,8 @@ st.sidebar.image("stabledifussion777.png",
 ##############Pagina 1##############
 
 def Inicio():
-    st.markdown("# El_principito")
-    st.sidebar.markdown("# El_principito")
+    st.markdown("# Elprincipito")
+    st.sidebar.markdown("# Elprincipito")
     image = Image.open("elprincipito.jpeg")
     st.image(image, caption='El principito')
 
@@ -76,7 +76,7 @@ st.image(image, caption='Puquna: Talleres STEAM')
 
 ##
 page_names_to_funcs = {
-  "Inicio": El_principito,
+  "Inicio": Elprincipito,
   "Cursos": page2,
 }
 
