@@ -39,7 +39,9 @@ def page2():
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Curso virtual (6 horas)')
-        st.write('''Aprende desde cero con plantillas de códigos listos para desplegar toda tu creatividad.''')
+        st.write('''En nuestros talleres podrás aprender desde cero, 
+        no requieres saber programar ya que hemos preparado plantillas con códigos
+        listos para que puedas desplegar toda tu creatividad.''')
         st.write (pd.DataFrame({'Temas': ['Python y redes neuronales artificiales',
                                   'Procesamiento de Lenguaje Natural', 
                                   'Llama 2 y ChatGPT'], 
