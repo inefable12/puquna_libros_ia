@@ -8,10 +8,7 @@ from PIL import Image
 st.sidebar.image("stabledifussion777.png",
                  caption="Bienvenidx")
 
-
-
 ##############Pagina 1##############
-
 def Home():
     st.markdown("# Home")
     st.sidebar.markdown("# Elprincipito")
@@ -62,22 +59,24 @@ def page2():
 
 
 ##
-st.header('Nuestras redes', divider='rainbow')
-
-st.link_button("Youtube", "https://www.youtube.com/channel/UCm6lcnfmNS2stsUYVvrFOzg")
-
-st.link_button("Facebook", "https://www.facebook.com/tallerespuquna")
-
-st.link_button("Github", "https://github.com/inefable12")
-
-image = Image.open("verano2023a.png")
-st.image(image, caption='Puquna: Talleres STEAM')
+def page3():
+  st.header('Nuestras redes', divider='rainbow')
+  
+  st.link_button("Youtube", "https://www.youtube.com/channel/UCm6lcnfmNS2stsUYVvrFOzg")
+  
+  st.link_button("Facebook", "https://www.facebook.com/tallerespuquna")
+  
+  st.link_button("Github", "https://github.com/inefable12")
+  
+  image = Image.open("verano2023a.png")
+  st.image(image, caption='Puquna: Talleres STEAM')
 
 
 ##
 page_names_to_funcs = {
   "El principito": Home,
   "Cursos": page2,
+  "Nuestras redes": page3,
 }
 
 selected_page = st.sidebar.selectbox("Selecciona una página", page_names_to_funcs.keys())
