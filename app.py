@@ -79,7 +79,7 @@ def page3():
 
   st.write('''Somos un emprendimiento enfocado en la aplicación de tecnologías para la educación. 
   Puquna promueve las metodologías STEAM a través de talleres gratuitos en zonas vulnerables y autogestiona actividades para su sostenimiento. 
-  Somos especialistas en inteligencia artificial, ciencia de datos, música y arte, simulaciones moleculares, 
+  Somos especialistas en inteligencia artificial, ciencia de datos, música algorítmica y arte disruptivo, simulaciones moleculares, 
   prototipado con impresión 3D, corte laser, y mucho más.''')
 
 st.write('''Puquna STEAM - 2024''')
