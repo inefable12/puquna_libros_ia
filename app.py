@@ -39,7 +39,7 @@ def page2():
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Mis ilustraciones')
-        st.write('''Aprende desde cero con plantillas de códigas listas para desplegar toda tu creatividad''')
+        st.write('''Aprende desde cero con plantillas de códigos listas para desplegar toda tu creatividad''')
         st.write (pd.DataFrame({'Temas': ['Python y redes neuronales artificiales',
                                   'Procesamiento de Lenguaje Natural', 
                                   'Llama 2 y ChatGPT'], 
