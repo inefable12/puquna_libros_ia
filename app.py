@@ -76,7 +76,7 @@ st.image(image, caption='puquna')
 
 ##
 page_names_to_funcs = {
-  "Inicio": El principito,
+  "Inicio": El_principito,
   "Cursos": page2,
 }
 
