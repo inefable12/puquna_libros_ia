@@ -12,7 +12,7 @@ st.sidebar.image("stabledifussion777.png",
 def Home():
     st.markdown("# Juega a crear nuevas historias")
     #st.markdown("<h1 style='text-align: center; color: red;'>Juega a crear nuevas historias</h1>", unsafe_allow_html=True)
-    st.sidebar.markdown("# Elprincipito")
+    st.sidebar.markdown("# El principito en Machupichu")
     image = Image.open("elprincipito.jpeg")
     st.image(image, caption='El principito')
 
@@ -22,7 +22,7 @@ def Home():
         st.write('''Te imaginas al principito en nuevos escenarios, ¡por ejemplo en Machupichu! qué nuevas historias puede despertar nuestro imaginario a través de la generación de imágenes usando inteligencia artificial.''')
         
     with total2:
-        st.info('Pedidos')
+        st.info('Pedidos a inefable12@gmail o 957787559')
         st.write (pd.DataFrame({'Tipo': ['Físico, Tapa dura',
                                           'Físico, Tapa blanda', 
                                           'Digital'], 
