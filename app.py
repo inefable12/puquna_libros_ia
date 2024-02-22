@@ -10,7 +10,8 @@ st.sidebar.image("stabledifussion777.png",
 
 ##############Pagina 1##############
 def Home():
-    st.markdown("# Juega a crear nuevas historias")
+    #st.markdown("# Juega a crear nuevas historias")
+    st.markdown("<h1 style='text-align: center; color: red;'>Juega a crear nuevas historias</h1>", unsafe_allow_html=True)
     st.sidebar.markdown("# Elprincipito")
     image = Image.open("elprincipito.jpeg")
     st.image(image, caption='El principito')
@@ -83,8 +84,8 @@ def page3():
   Somos especialistas en inteligencia artificial, ciencia de datos, música algorítmica y arte disruptivo, simulaciones moleculares, 
   prototipado con impresión 3D, corte laser, y mucho más.''')
 
-  st.write('''Puquna STEAM - 2024''')
-
+  #st.write('''Puquna STEAM - 2024''')
+  st.markdown("<h1 style='text-align: center; color: red;'>Puquna STEAM - 2024</h1>", unsafe_allow_html=True)
 
 ##
 page_names_to_funcs = {
