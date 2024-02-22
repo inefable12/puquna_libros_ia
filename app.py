@@ -59,7 +59,7 @@ def page2():
                                 'Inversión': ["S/ 200", "S/ 150", 
                                            "S/ 160"]}))
     image = Image.open("alberteinstein.jpeg")
-    st.image(image, caption='Taller')
+    st.image(image, caption='¿Recuerdas cuando Albert Einstein visitó Machupichu? Despierta historias alucinantes :smiles:')
   
     image = Image.open("logPann_red.png")
     st.image(image, caption='Redes Neuronales Artificiales')
