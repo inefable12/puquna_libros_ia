@@ -29,19 +29,17 @@ def Home():
                                 'Inicio': ["S/ 60.00", "S/ 40.00", 
                                            "S/ 20.00"]}))
     image = Image.open("DALL·E 2022-12-26 21.10.51 - Humberto Maturana head for 3D printing.png")
-    st.image(image, caption='Ilustración de personales literarios')
+    st.image(image, caption='Ilustración de personajes literarios')
     
 ##############Pagina 2##############
 def page2():
-    st.markdown("# Mis creaciones")
+    st.markdown("# Aprende a crear libros ilustrados por ia desde cero")
     st.sidebar.markdown("# Mis creaciones")
-    image = Image.open("alberteinstein.jpeg")
-    st.image(image, caption='Taller')
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Mis ilustraciones')
-        st.write('''Aprende a crear libros animados desde cero''')
+        st.write('''Aprende a crear libros ilustrados por ia desde cero''')
         st.write (pd.DataFrame({'Temas': ['Python y redes neuronales artificiales',
                                   'Procesamiento de Lenguaje Natural', 
                                   'Llama 2 y ChatGPT'], 
@@ -52,8 +50,11 @@ def page2():
         st.write (pd.DataFrame({'Modalidad': ['General',
                                           'Estudiantes', 
                                           'Corporativo (grupos de 4)'], 
-                                'Inversión': ["200", "150", 
-                                           "160"]}))
+                                'Inversión': ["S/ 200", "S/ 150", 
+                                           "S/ 160"]}))
+    image = Image.open("alberteinstein.jpeg")
+    st.image(image, caption='Taller')
+  
     image = Image.open("logPann_red.png")
     st.image(image, caption='Redes Neuronales Artificiales')
 
