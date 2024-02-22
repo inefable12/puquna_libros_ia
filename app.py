@@ -75,11 +75,11 @@ def page3():
   st.link_button("Github", "https://github.com/inefable12")
   
   image = Image.open("verano2023a.png")
-  st.image(image, caption='Puquna: Talleres STEAM')
+  st.image(image, caption='Puquna STEAM')
 
-  st.write('''Capacítate en skills que potencian tu CV.
-        Implementa herramientas computacionales, simulaciones, 
-        inteligencia artificial, prototipado con impresión 3D, corte laser, y mucho más.''')
+  st.write('''Somos un emprendimiento enfocado en la aplicación de tecnologías para la educación. 
+  Somos especialistas en inteligencia artificial, ciencia de datos, música y arte, simulaciones moleculares, 
+  prototipado con impresión 3D, corte laser, y mucho más.''')
 
 
 ##
