@@ -21,7 +21,7 @@ def Home():
         st.write('''Te imaginas al principito en nuevos escenarios, ¡por ejemplo en Machupichu! qué nuevas historias puede despertar nuestro imaginario a través de la generación de imágenes usando inteligencia artificial.''')
         
     with total2:
-        st.info('En stock')
+        st.info('Pedidos')
         st.write (pd.DataFrame({'Tipo': ['Físico, Tapa dura',
                                           'Físico, Tapa blanda', 
                                           'Digital'], 
