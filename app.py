@@ -6,7 +6,7 @@ from PIL import Image
 
 ##############
 st.sidebar.image("stabledifussion777.png",
-                 caption="Bienvenidx")
+                 caption="Ilustra tus libros con IA")
 
 ##############Pagina 1##############
 def Home():
