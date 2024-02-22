@@ -10,7 +10,7 @@ st.sidebar.image("stabledifussion777.png",
 
 ##############Pagina 1##############
 def Home():
-    st.markdown("# Home")
+    st.markdown("# Juega a crear nuevas historias") #st.write('''Con nuestros libros ilustrados juega a crear nuevas historias ''')
     st.sidebar.markdown("# Elprincipito")
     image = Image.open("elprincipito.jpeg")
     st.image(image, caption='El principito')
@@ -19,7 +19,7 @@ def Home():
     with total1:
         st.info('El principito ilustrado por ia')
         st.write('''Te imaginas al principito en nuevos escenarios, ¡por ejemplo en Machupichu! qué nuevas historias puede despertar nuestro imaginario a través de la generación de imágenes usando inteligencia artificial.''')
-        st.write('''Con nuestros libros ilustrados juega a crear nuevas historias y ''')
+        
     with total2:
         st.info('En stock')
         st.write (pd.DataFrame({'Tipo': ['Físico, Tapa dura',
